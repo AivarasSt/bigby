@@ -1,0 +1,26 @@
+.nav {
+ height:65px;
+ padding:10px;
+ position:fixed;
+ width: 100%;
+ background:#275DAD;
+ color:#FBFEF9;
+ display:flex;
+ align-items:center;
+ justify-content:flex-start;
+}
+
+.nav ul {
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ list-style:none;
+}
+
+.nav ul li a {
+  margin:5px 15px;
+}
+
+.logo {
+  cursor: pointer;
+}
